@@ -1,0 +1,1 @@
+!function(){const e=[...document.querySelectorAll(".question-title")];console.log(e),e.forEach(e=>{e.addEventListener("click",()=>{let t=e.parentElement.parentElement,l=0,n=e.nextElementSibling;t.classList.toggle("question-padding--add"),e.children[0].classList.toggle("question-arrow--rotate"),0===n.clientHeight&&(l=n.scrollHeight),n.style.height=`${l}px`})})}();
